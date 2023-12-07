@@ -56,6 +56,12 @@
 }
 
 /* box2 */
+.nav-address{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .add-first{
     color: #cccccc;
     font-size: 0.8rem;
@@ -70,6 +76,8 @@
 .add-icon{
     display: flex;
     align-items: center;
+    justify-content: center ;
+    flex-direction: column;
 }
 
 /* box 3 */
@@ -157,11 +165,16 @@
 .nav-return-order{
     display: flex;
     align-items: center;
+    height: 50px;
 }
 
 /* box 7 */
 .nav-cart-icon{
     font-size: 1.8rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
 .nav-cart-text{
